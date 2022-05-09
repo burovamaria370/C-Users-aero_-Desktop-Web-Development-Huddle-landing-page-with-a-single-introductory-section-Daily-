@@ -1,0 +1,114 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 46px;
+  font-size: 39px;
+}
+
+p {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 66px;
+  font-size: 17px;
+  margin-top: 200px;
+  height: 100px;
+  width: 600px;
+  position: absolute;
+}
+
+.main {
+  width: 1440px;
+  height: 800px;
+  background-color: hsl(257, 40%, 49%);
+  position: absolute;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  top: 0px;
+  margin: auto;
+  background-image: url(../images/bg-desktop.svg);
+  background-size: 1318px 800px;
+  margin-top: 0px;
+  top: 8px;
+  margin-bottom: 0px;
+  background-repeat: no-repeat;
+}
+
+.logo {
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 70px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 740px 550px;
+  grid-gap: 20px;
+  position: absolute;
+  height: 500px;
+  width: 1306px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  top: 0px;
+  margin-top: 190px;
+  margin-left: 70px;
+}
+
+.illustration {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.btn {
+  position: absolute;
+  background-color: hsl(300, 69%, 71%);
+  border-radius: 50px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  top: 0px;
+  width: 190px;
+  height: 50px;
+  margin-top: 290px;
+  box-shadow: 0px 3px 6px 2px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 3px 6px 2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 3px 6px 2px rgba(0, 0, 0, 0.75);
+}
+
+.Register {
+  position: absolute;
+  margin: auto;
+  color: white;
+  padding-top: 12px;
+  padding-left: 60px;
+}
+
+.icons {
+  width: 32px;
+  margin-left: 1205px;
+  margin-top: 730px;
+  position: absolute;
+}
+
+.hand {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  top: 0px;
+}
